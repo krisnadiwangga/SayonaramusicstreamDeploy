@@ -25,11 +25,11 @@ from pyrogram.types import (
 def start_pannel():
     buttons = [
         [
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url="https://t.me/NastySupportt"),
-            InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/ahhsudahlahhh"),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url="https://t.me/Naraxmusic"),
+            InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/sayonara_story"),
         ],
         [
-            InlineKeyboardButton("📚 ᴄᴏᴍᴍᴀɴᴅ​ 📚", url="https://telegra.ph/ᴷʸʸ-11-22"),
+            InlineKeyboardButton("🔥OWNER🔥", url="https://t.me/Sayonara_nih"),
         ],
     ]
     return (
@@ -45,11 +45,11 @@ pstart_markup = InlineKeyboardMarkup(
                 "➕ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ᴛᴏ ɢʀᴏᴜᴘ​ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ],
         [
-            InlineKeyboardButton(text="✨ sᴜᴘᴘᴏʀᴛ​", url="https://t.me/NastySupportt"),
-            InlineKeyboardButton("✨ ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/ahhsudahlahhh"),
+            InlineKeyboardButton(text="✨ sᴜᴘᴘᴏʀᴛ​", url="https://t.me/naraxmusic"),
+            InlineKeyboardButton("✨ ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Sayonara_story"),
         ],
         [
-            InlineKeyboardButton("📚 ᴄᴏᴍᴍᴀɴᴅ ​📚", url="https://telegra.ph/ᴷʸʸ-11-22"),
+            InlineKeyboardButton("🔥OWNER🔥", url="https://t.me/Sayonara_nih"),
         ],
     ]
 )
