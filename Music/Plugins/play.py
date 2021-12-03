@@ -279,7 +279,7 @@ Unban terlebih dahulu untuk menggunakan
             else file_name,
         )
         title = "Audio Yang Dipilih Dari Telegram"
-        link = "https://t.me/ahhsudahlahhh"
+        link = "https://t.me/sayonara_story"
         thumb = "cache/Audio.png"
         videoid = "smex1"
     elif url:
