@@ -198,6 +198,7 @@ async def vplay(c: Client, message: Message):
 » ❌ Tambah pengguna
 
 ✨ Powered by: [{BOT_NAME}](t.me/{BOT_USERNAME})
+""",
             disable_web_page_preview=True,
         )
         return
