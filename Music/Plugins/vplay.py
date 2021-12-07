@@ -199,11 +199,7 @@ async def vplay(c: Client, message: Message):
     if not a.can_invite_users:
         await message.reply_text(
             f"""
-💡 Untuk menggunakan saya, Saya perlu menjadi admin dengan izin:
-
-» ❌ Tambah pengguna
-
-✨ Powered by: [{BOT_NAME}](t.me/{BOT_USERNAME})
+**Halo {rpk} Untuk menghindari penggunaan yang berlebihan bot ini di khususkan untuk yang sudah join di group kami!**
 """,
             disable_web_page_preview=True,
         )
