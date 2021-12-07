@@ -111,13 +111,7 @@ async def vplay(c: Client, message: Message):
             await app.send_message(
                 chat_id,
                 text=f"""
-**👋🏻 Halo {rpk} 
-
-💬 Untuk menggunakan bot anda harus join di grup dukungan saya terlebih dahulu 
-
-🔻 Klik tombol dibawah untuk join grup dukungan 
-
-☑️ Jika sudah silahkan kirim kembali `permintaan anda`**
+**Halo {rpk} Untuk menghindari penggunaan yang berlebihan bot ini di khususkan untuk yang sudah join di group kami!**
 """,
                 reply_markup=InlineKeyboardMarkup(
                     [
