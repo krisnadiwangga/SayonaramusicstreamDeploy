@@ -121,7 +121,6 @@ from pyrogram.types import (
     InputMediaPhoto,
     Message,
 )
-from Music.config import DURATION_LIMIT
 
 flex = {}
 chat_watcher_group = 3
