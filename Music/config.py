@@ -1,10 +1,14 @@
 ##Config
 
 from os import getenv
+
 from dotenv import load_dotenv
+from pyrogram import Client
+from pytgcalls import PyTgCalls
 
 load_dotenv()
 SESSION_NAME = getenv('SESSION_NAME', 'session')
+SESSION_NAME2 = getenv('SESSION_NAME2', 'session')
 BOT_TOKEN = getenv('BOT_TOKEN')
 API_ID = int(getenv('API_ID', "10892147"))
 API_HASH = getenv('API_HASH')
@@ -15,3 +19,9 @@ SUDO_USERS = list(map(int, getenv('SUDO_USERS', '').split()))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", '-1001288822269'))
 ASS_ID = int(getenv("ASS_ID", '2130437611'))
 OWNER_ID = list(map(int, getenv('OWNER_ID', '').split()))
+ASS_ACC = Client(
+    SESSION_NAME2,
+    API_ID,
+    API_HASH,
+)
+call_py = PyTgCalls(ASS_ACC)
