@@ -319,7 +319,7 @@ async def vplay(c: Client, message: Message):
             loser = await message.reply("🔎 **Pencarian**")
             query = message.text.split(None, 1)[1]
             search = ytsearch(query)
-            Q = 720
+            Q = 480
             amaze = HighQualityVideo()
             if search == 0:
                 await loser.edit("❌ **Tidak ada hasil yang ditemukan.**")
