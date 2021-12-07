@@ -117,7 +117,7 @@ async def vplay(c: Client, message: Message):
 
 🔻 Klik tombol dibawah untuk join grup dukungan 
 
-☑️ Jika sudah silahkan kirim kembali `{message.text}`**
+☑️ Jika sudah silahkan kirim kembali `permintaan anda`**
 """,
                 reply_markup=InlineKeyboardMarkup(
                     [
