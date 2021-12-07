@@ -121,6 +121,7 @@ from pyrogram.types import (
     InputMediaPhoto,
     Message,
 )
+from Music.config import DURATION_LIMIT
 
 flex = {}
 chat_watcher_group = 3
@@ -128,7 +129,7 @@ chat_watcher_group = 3
 
 def time_to_seconds(time):
     stringt = str(time)
-    return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(":"))))
+    return sum(int(x) * 10 ** i for i, x in enumerate(reversed(stringt.split(":"))))
 
 
 BANNED_USERS = set(int(x) for x in os.getenv("BANNED_USERS", "").split())
@@ -349,7 +350,7 @@ Unban terlebih dahulu untuk menggunakan
                 f"Lagu Tidak Ditemukan.\n**Kemungkinan Alasan:** {e}"
             )
         smex = int(time_to_seconds(duration))
-        if smex > DURATION_LIMIT:
+        if smex > DURATION_LIMIT * 10:
             return await mystic.edit_text(
                 f"""
 **Kesalahan Durasi**
