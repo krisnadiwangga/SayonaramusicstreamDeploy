@@ -137,6 +137,7 @@ UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL")
 
 @Client.on_message(command(["play", f"play@{BOT_USERNAME}", "p"]))
 async def play(_, message: Message):
+    mmk = message.reply_to_message
     chat_id = message.chat.id
     user_id = message.from_user.id
     user_name = message.from_user.first_name
@@ -324,8 +325,8 @@ Unban terlebih dahulu untuk menggunakan
             if (not path.isfile(file_name))
             else file_name,
         )
-        title = "Audio Yang Dipilih Dari Telegram"
-        link = "https://t.me/sayonara_story"
+        title = audio.title
+        link = mmk.link
         thumb = "cache/Audio.png"
         videoid = "smex1"
     elif url:
