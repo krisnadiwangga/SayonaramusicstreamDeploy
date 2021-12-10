@@ -166,13 +166,13 @@ async def play(_, message: Message):
             await app.send_message(
                 chat_id,
                 text=f"""
-**Halo {rpk} Untuk menghindari penggunaan yang berlebihan bot ini di khususkan untuk yang sudah join di group kami!**
+**ʜᴀʟᴏ​ {rpk} ᴜɴᴛᴜᴋ ᴍᴇɴɢʜɪɴᴅᴀʀɪ ᴘᴇɴɢɢᴜɴᴀᴀɴ ʏᴀɴɢ ʙᴇʀʟᴇʙɪʜᴀɴ ʙᴏᴛ ɪɴɪ ᴅɪ ᴋʜᴜsᴜsᴋᴀɴ ᴜɴᴛᴜᴋ ʏᴀɴɢ sᴜᴅᴀʜ ᴊᴏɪɴ ᴅɪ ɢʀᴏᴜᴘ ᴋᴀᴍɪ!​!**
 """,
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                "Join Group Support",
+                                "ᴊᴏɪɴ ᴄʜ sᴜᴘᴘᴏʀᴛ​",
                                 url=f"https://t.me/{update_channel}",
                             )
                         ]
