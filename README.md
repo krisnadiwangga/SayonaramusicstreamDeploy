@@ -55,8 +55,8 @@ DAFTAR PERINTAH VIDEO PLAYER
 - `/pmpermit [on/off]` - enable/disable pmpermit message
 
 #### Special Credits
-- [𝗧𝗼𝗻𝗶𝗰](https://github.com/krisnadiwangga) dev 
-- [𝗥𝗶𝘇𝗸𝘆](https://github.com/muhammadrizky16) dev
+-  `/(https://github.com/krisnadiwangga) dev 
+-  `/(https://github.com/muhammadrizky16) dev
 
 ### Support & Updates 🎑
 <a href="https://t.me/NaraXmusic"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/sayonara_story"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
