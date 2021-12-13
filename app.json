@@ -1,8 +1,9 @@
 {
-    "name": "KyyMusic",
+    "name": "Sayonara music stream",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/muhamadrizky16/KyyMusic",
+    "logo": ["https://telegra.ph/file/0b815fcecd6a7da9a4c89.jpg"],
+    "repository": "https://github.com/krisnadiwangga/KyyMusic",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
