@@ -56,7 +56,6 @@ DAFTAR PERINTAH VIDEO PLAYER
 
 #### Special Credits
 - [Sayonara](https://github.com/krisnadiwangga): Dev
-1### Credits
 - [Kyy](https://github.com/UserLazy): Dev
 
 ### Support & Updates 🎑
