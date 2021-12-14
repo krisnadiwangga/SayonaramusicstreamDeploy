@@ -55,9 +55,9 @@ DAFTAR PERINTAH VIDEO PLAYER
 - `/pmpermit [on/off]` - enable/disable pmpermit message
 
 #### Special Credits
-[dev](https://github.com/krisnadiwangga) sayonara
-
-[dev](https://github.com/muhammadrizky16) kyy
+- [Sayonara](https://github.com/krisnadiwangga): Dev
+1### Credits
+- [Kyy](https://github.com/UserLazy): Dev
 
 ### Support & Updates 🎑
 <a href="https://t.me/NaraXmusic"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/sayonara_story"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
