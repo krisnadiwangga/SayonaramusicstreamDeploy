@@ -3,6 +3,9 @@
 <p align="center">
    <img src="https://telegra.ph/file/14890cf5cd1ba21de66a8.jpg">
 </p>
+<p align="center">
+   <img src="https://telegra.ph/file/665d722d8eab95f49d86b.jpg"> 
+</p>
 
 ### DEPLOY TO HEROKU TOD!
 
