@@ -11,7 +11,7 @@
             "required": true
        },
          "SESSION_NAME2": {
-            "description": "fill with the pyrogram session string from account",
+            "description": "fill with the pyrogram session video stream string from account",
             "required": true
         },
         "OWNER_ID": {
