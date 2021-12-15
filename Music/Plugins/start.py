@@ -1,4 +1,5 @@
 import yt_dlp
+from Music.config import SUPPORT_GROUP, UPDATES_CHANNEL
 from Music import (
     ASSID,
     BOT_ID,
@@ -25,8 +26,8 @@ from pyrogram.types import (
 def start_pannel():
     buttons = [
         [
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url="https://t.me/Naraxmusic"),
-            InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/sayonara_story"),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url="https://t.me/{SUPPORT_GROUP}"),
+            InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
         ],
         [
             InlineKeyboardButton("🔥OWNER🔥", url="https://t.me/Sayonara_nih"),
@@ -45,8 +46,8 @@ pstart_markup = InlineKeyboardMarkup(
                 "➕ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ᴛᴏ ɢʀᴏᴜᴘ​ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ],
         [
-            InlineKeyboardButton(text="✨ sᴜᴘᴘᴏʀᴛ​", url="https://t.me/naraxmusic"),
-            InlineKeyboardButton("✨ ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Sayonara_story"),
+            InlineKeyboardButton(text="✨ sᴜᴘᴘᴏʀᴛ​", url="https://t.me/{SUPPORT_GROUP}"),
+            InlineKeyboardButton("✨ ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
         ],
         [
             InlineKeyboardButton("🔥OWNER🔥", url="https://t.me/Sayonara_nih"),
