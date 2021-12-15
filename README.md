@@ -14,16 +14,6 @@ Get pyrogram (p)  `SESSION` from here:
 [![Run on Repl.it](https://repl.it/badge/github/ChankitSaini/GenerateStringSession)](https://replit.com/@ChankitSaini/GenerateStringSession)
 
 ### Commands 
-
-If you donlt like to play in linked channel:
- 1. Get your channel ID.
- 2. Rename your group to: Channel Music: your_channel_id
- 3. Add [Botmusic](https://t.me/bombleebas) as Channel admin with full perms
- 4. add helper to channel
- 5. Simply send commands in your group.
-
-
-
 DAFTAR PERINTAH VIDEO PLAYER
 📚UNTUK SEMUA ANGGOTA GRUP📚
 /vplay (judul video) - untuk memutar video yang anda inginkan 
