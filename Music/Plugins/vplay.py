@@ -28,15 +28,13 @@ from Music.MusicUtilities.tgcallsrun.queues import (
 
 def ytsearch(query):
     try:
-        search = VideosSearch(query, limit=1)
-        for r in search.result()["result"]:
-            ytid = r["id"]
-            if len(r["title"]) > 34:
-                songname = r["title"][:70]
-            else:
-                songname = r["title"]
-            url = f"https://www.youtube.com/watch?v={ytid}"
-        return [songname, url]
+        search = VideosSearch(query, limit=1).result()
+        data = search["result"][0]
+        songname = data["title"]
+        url = data["link"]
+        duration = data["duration"]
+        thumbnail = f"https://i.ytimg.com/vi/{data['id']}/hqdefault.jpg"
+        return [songname, url, duration, thumbnail]
     except Exception as e:
         print(e)
         return 0
@@ -300,6 +298,8 @@ async def vplay(c: Client, message: Message):
             else:
                 songname = search[0]
                 url = search[1]
+                duration = search[2]
+                thumbnail = search[3]
                 veez, ytlink = await ytdl(url)
                 if veez == 0:
                     await loser.edit(f"❌ yt-dl masalah terdeteksi\n\n» `{ytlink}`")
@@ -314,6 +314,7 @@ async def vplay(c: Client, message: Message):
 💡 **Trek ditambahkan ke antrian**
 
 🏷 **Nama:** [{songname[:999]}]({url})
+⏱️ **Durasi:** {duration}
 🎧 **Atas permintaan:** {requester}
 
 #️⃣ **Posisi antrian** {pos}
@@ -341,6 +342,7 @@ async def vplay(c: Client, message: Message):
 ▶️ **Memutar video dimulai**
 
 🏷 **Nama:** [{songname[:999]}]({url})
+⏱️ **Durasi:** {duration}
 🎧 **Atas permintaan:** {requester}
 
 💬 **Diputar di:** {message.chat.title}
