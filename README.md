@@ -1,5 +1,6 @@
 #### SAYONARA MUSIC BOT STREAM 🎼
-#### **Kalo Deploy Gausah Banyak Bacot Ngentot Tinggal Deploy Gw Entot Juga Lu Lama Lama**
+#### **Kalo Deploy Gausah Banyak Bacot Ngentot Tinggal Deploy Gw Entot Juga Lu Lama Lama satu lagi jangan lupa kasih stars sama follow ya sat**
+#### **DI SARANKAN 2 ASISSTANT AGAR TIDAK BENTROK SAAT PLAY MUSIC SAMA VIDEO**
 <p align="center">
    <img src="https://telegra.ph/file/14890cf5cd1ba21de66a8.jpg">
 </p>
