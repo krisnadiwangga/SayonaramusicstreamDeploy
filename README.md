@@ -39,14 +39,11 @@ DAFTAR PERINTAH VIDEO PLAYER
 /end - untuk menghentikan pemutaran
 /skip - untuk memutar lagu berikutnya yang ada didalam antrian
 
-### Commands for Sudo Users ⚔️
-- `/userbotleaveall` - remove assistant from all chats
-- `/gcast <reply to message>` - globally brodcast replied message to all chats
-- `/pmpermit [on/off]` - enable/disable pmpermit message
 
 #### Special Credits
-- [Sayonara](https://github.com/krisnadiwangga): Dev
-- [Kyy](https://github.com/UserLazy): Dev
+- [Sayonara](https://github.com/krisnadiwangga) Dev
+- [Kyy](https://github.com/UserLazy) Dev
+- [alldev](https://t.me/sayonara_story/276) all dev
 
 ### Support & Updates 🎑
 <a href="https://t.me/NaraXmusic"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/sayonara_story"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
