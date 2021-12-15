@@ -34,14 +34,6 @@ def clear_queue(chat_id):
         return 0
 
 
-def clear_queue(chat_id):
-    if chat_id in QUEUE:
-        QUEUE.pop(chat_id)
-        return 1
-    else:
-        return 0
-
-
 def ytsearch(query):
     try:
         search = VideosSearch(query, limit=1)
