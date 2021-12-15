@@ -1,3 +1,4 @@
+from Music.config import SUPPORT_GROUP, UPDATES_CHANNEL
 from pyrogram.types import (
     CallbackQuery,
     InlineKeyboardButton,
@@ -9,8 +10,8 @@ from pyrogram.types import (
 def play_markup(videoid, user_id):
     buttons = [
         [
-            InlineKeyboardButton(text="✨ᴄʜᴀɴɴᴇʟ✨", url="https://t.me/sayonara_story"),
-            InlineKeyboardButton(text="✨sᴜᴘᴘᴏʀᴛ✨", url="https://t.me/NaraXmusic"),
+            InlineKeyboardButton(text="✨ᴄʜᴀɴɴᴇʟ✨", url="https://t.me/{SUPPORT_GROUP}"),
+            InlineKeyboardButton(text="✨sᴜᴘᴘᴏʀᴛ✨", url="https://t.me/{UPDATES_CHANNEL}"),
         ],
         [      
                 InlineKeyboardButton(text="▢ᴍᴇɴᴜ▢", callback_data=f"other {videoid}|{user_id}")
