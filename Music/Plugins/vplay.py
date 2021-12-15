@@ -13,7 +13,7 @@ from pytgcalls.types.input_stream.quality import (
     MediumQualityVideo,
 )
 from youtubesearchpython import VideosSearch
-
+from Music.config import SUPPORT_GROUP, UPDATES_CHANNEL
 from Music import BOT_NAME, BOT_USERNAME, app
 from Music.config import ASS_ACC, call_py
 from Music.MusicUtilities.helpers.filters import command
@@ -118,7 +118,7 @@ async def vplay(c: Client, message: Message):
                         [
                             InlineKeyboardButton(
                                 "💬 Join Group Support 💬",
-                                url=f"https://t.me/{update_channel}",
+                                url=f"https://t.me/{UPDATES_CHANNEL}",
                             )
                         ]
                     ]
@@ -137,8 +137,8 @@ async def vplay(c: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("✨ᴅᴏɴᴀsɪ", url="https://t.me/Sayonara_nih"),
-                InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ✨", url="https://t.me/NaraXmusic"),
+                InlineKeyboardButton("✨ᴅᴏɴᴀsɪ", url="https://t.me/{SUPPORT_GROUP}"),
+                InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ✨", url="https://t.me/{UPDATES_CHANNEL}"),
             ]
         ]
     )
