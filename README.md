@@ -16,28 +16,28 @@ Get pyrogram (p)  `SESSION` from here:
 ### Commands 
 DAFTAR PERINTAH VIDEO PLAYER
 📚UNTUK SEMUA ANGGOTA GRUP📚
-/vplay (judul video) - untuk memutar video yang anda inginkan 
-/vplay (link youtube) - untuk memutar video yang di minta melalui url youtube
-/vsong (judul video) - untuk mendownload video
+- /vplay (judul video) - untuk memutar video yang anda inginkan 
+- /vplay (link youtube) - untuk memutar video yang di minta melalui url youtube
+- /vsong (judul video) - untuk mendownload video
 
 📒 UNTUK SEMUA ADMIN GRUP 📒
-/vpause - untuk menjeda pemutaran
-/vresume - untuk melanjutkan pemutaran
-/vstop - untuk menghentikan pemutaran
-/vskip - untuk memutar video berikutnya yang ada didalam antrian
+- /vpause - untuk menjeda pemutaran
+- /vresume - untuk melanjutkan pemutaran
+- /vstop - untuk menghentikan pemutaran
+- /vskip - untuk memutar video berikutnya yang ada didalam antrian
 
- DAFTAR PERINTAH MUSIC PLAYER 
+DAFTAR PERINTAH MUSIC PLAYER 
 📚 UNTUK SEMUA ANGGOTA GRUP 📚
-/play (judul lagu) - untuk memutar lagu yang anda inginkan 
-/play (balas ke audio file) - untuk memutar lagu yang di minta melalui audio yang dibalas
-/play (link youtube) - untuk memutar lagu yang di minta melalui url youtube
-/song (judul lagu) - untuk mendownload lagu
+- /play (judul lagu) - untuk memutar lagu yang anda inginkan 
+- /play (balas ke audio file) - untuk memutar lagu yang di minta melalui audio yang dibalas
+- /play (link youtube) - untuk memutar lagu yang di minta melalui url youtube
+- /song (judul lagu) - untuk mendownload lagu
 
 📒 UNTUK SEMUA ADMIN GRUP 📒
-/pause - untuk menjeda pemutaran
-/resume - untuk melanjutkan pemutaran
-/end - untuk menghentikan pemutaran
-/skip - untuk memutar lagu berikutnya yang ada didalam antrian
+- /pause - untuk menjeda pemutaran
+- /resume - untuk melanjutkan pemutaran
+- /end - untuk menghentikan pemutaran
+- /skip - untuk memutar lagu berikutnya yang ada didalam antrian
 
 
 #### Special Credits
