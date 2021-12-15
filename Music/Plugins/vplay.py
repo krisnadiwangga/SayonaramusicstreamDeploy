@@ -57,8 +57,6 @@ async def ytdl(link):
         return 0, stderr.decode()
 
 
-UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "GroupMusicRandom")
-
 
 @app.on_message(command("vplay") & filters.group)
 async def vplay(c: Client, message: Message):
@@ -67,45 +65,6 @@ async def vplay(c: Client, message: Message):
     user_id = message.from_user.id
     user_name = message.from_user.first_name
     rpk = "[" + user_name + "](tg://user?id=" + str(user_id) + ")"
-    update_channel = UPDATES_CHANNEL
-    if update_channel:
-        try:
-            user = await app.get_chat_member(update_channel, user_id)
-            if user.status == "kicked":
-                await app.send_message(
-                    chat_id,
-                    text=f"**❌ Anda telah di ban\nUbtuk menggunakan bot anda harus join di [Group](https://t.me/{UPDATES_CHANNEL})**",
-                    parse_mode="markdown",
-                    disable_web_page_preview=True,
-                )
-                return
-        except UserNotParticipant:
-            await app.send_message(
-                chat_id,
-                text=f"""
-**Halo {rpk} Untuk menghindari penggunaan yang berlebihan bot ini di khususkan untuk yang sudah join di group kami!**
-""",
-                reply_markup=InlineKeyboardMarkup(
-                    [
-                        [
-                            InlineKeyboardButton(
-                                "💬 Join Group Support 💬",
-                                url=f"https://t.me/{UPDATES_CHANNEL}",
-                            )
-                        ]
-                    ]
-                ),
-                parse_mode="markdown",
-            )
-            return
-        except Exception:
-            await app.send_message(
-                chat_id,
-                text=f"**{rpk} Sepertinya ada yang salah ngab 🤪. Silahkan hubungi [Support Group](https://t.me/{UPDATES_CHANNEL}).**",
-                parse_mode="markdown",
-                disable_web_page_preview=True,
-            )
-            return
     keyboard = InlineKeyboardMarkup(
         [
             [
