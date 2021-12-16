@@ -3,7 +3,7 @@
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
     "logo": ["https://telegra.ph/file/0b815fcecd6a7da9a4c89.jpg"],
-    "repository": "https://github.com/krisnadiwangga/KyyMusic",
+    "repository": "https://github.com/krisnadiwangga/sayonara-musicvideo",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
