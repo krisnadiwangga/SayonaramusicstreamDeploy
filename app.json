@@ -35,7 +35,7 @@
             "required": true,
             "value": ""
         },
-        "GROUP_SUPPORTT": {
+        "SUPPORT_GROUP": {
             "description": "Isi dengan username group tanpa @",
             "required": true,
             "value": ""
