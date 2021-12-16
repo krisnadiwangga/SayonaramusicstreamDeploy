@@ -269,7 +269,7 @@ async def vplay(c: Client, message: Message):
                         requester = f"[{message.from_user.first_name}](tg://user?id={message.from_user.id})"
                         await message.reply_photo(
                             chat_id,
-                            photo=thumb,
+                            photo=mmk,
                             caption=f"""
 💡 **Trek ditambahkan ke antrian**
 
@@ -298,7 +298,7 @@ async def vplay(c: Client, message: Message):
                             requester = f"[{message.from_user.first_name}](tg://user?id={message.from_user.id})"
                             await message.reply_photo(
                             chat_id,
-                            photo=thumb,
+                            photo=mmk,
                             caption=f"""
 ▶️ **Memutar video dimulai**
 
