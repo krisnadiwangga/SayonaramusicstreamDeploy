@@ -19,8 +19,8 @@ SUDO_USERS = list(map(int, getenv('SUDO_USERS', '').split()))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", '-1001288822269'))
 ASS_ID = int(getenv("ASS_ID", '2130437611'))
 OWNER_ID = list(map(int, getenv('OWNER_ID', '').split()))
-SUPPORT_GROUP = getenv("GROUP", None)
-UPDATES_CHANNEL = getenv("CHANNEL", None)
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", None)
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", None)
 ASS_ACC = Client(
     SESSION_NAME2,
     API_ID,
