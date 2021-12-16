@@ -33,7 +33,7 @@ def ytsearch(query):
         songname = data["title"]
         url = data["link"]
         duration = data["duration"]
-        mmk = f"https://i.ytimg.com/vi/{data['id']}/hqdefault.jpg"
+        thumbnail = f"https://i.ytimg.com/vi/{data['id']}/hqdefault.jpg"
         return [songname, url, duration, thumbnail]
     except Exception as e:
         print(e)
@@ -258,7 +258,7 @@ async def vplay(c: Client, message: Message):
                 songname = search[0]
                 url = search[1]
                 duration = search[2]
-                mmk = search[3]
+                thumbnail = search[3]
                 veez, ytlink = await ytdl(url)
                 if veez == 0:
                     await loser.edit(f"❌ yt-dl masalah terdeteksi\n\n» `{ytlink}`")
@@ -267,10 +267,9 @@ async def vplay(c: Client, message: Message):
                         pos = add_to_queue(chat_id, songname, ytlink, url, "Video", Q)
                         await loser.delete()
                         requester = f"[{message.from_user.first_name}](tg://user?id={message.from_user.id})"
-                        await message.reply_photo(
-                            chat_id,
-                            photo=mmk,
-                            caption=f"""
+                        await app.send_message(
+                                chat_id,
+                                f"""
 💡 **Trek ditambahkan ke antrian**
 
 🏷 **Nama:** [{songname[:999]}]({url})
@@ -296,10 +295,9 @@ async def vplay(c: Client, message: Message):
                             add_to_queue(chat_id, songname, ytlink, url, "Video", Q)
                             await loser.delete()
                             requester = f"[{message.from_user.first_name}](tg://user?id={message.from_user.id})"
-                            await message.reply_photo(
-                            chat_id,
-                            photo=mmk,
-                            caption=f"""
+                            await app.send_message(
+                                chat_id,
+                                f"""
 ▶️ **Memutar video dimulai**
 
 🏷 **Nama:** [{songname[:999]}]({url})
