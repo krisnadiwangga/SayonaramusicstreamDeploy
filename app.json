@@ -9,6 +9,10 @@
         "SESSION_NAME": {
             "description": "fill with the pyrogram session string from account",
             "required": true
+       },
+        "SESSION_NAME": {
+            "description": "fill with the pyrogram session string from account stream",
+            "required": true
         },
         "OWNER_ID": {
             "description": "fill with your telegram id as the owner of the bot",
