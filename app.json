@@ -10,7 +10,7 @@
             "description": "fill with the pyrogram session string from account",
             "required": true
        },
-        "SESSION_NAME": {
+        "SESSION_NAME2": {
             "description": "fill with the pyrogram session string from account stream",
             "required": true
         },
