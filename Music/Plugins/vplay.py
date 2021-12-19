@@ -266,8 +266,7 @@ async def vplay(c: Client, message: Message):
                         requester = f"[{message.from_user.first_name}](tg://user?id={message.from_user.id})"
                         await app.send_message(
                             chat_id,
-                            photo=thumb,
-                            caption=f"""
+                            f"""
 💡 **Trek ditambahkan ke antrian**
 
 🏷 **Nama:** [{songname[:999]}]({url})
@@ -295,8 +294,7 @@ async def vplay(c: Client, message: Message):
                             requester = f"[{message.from_user.first_name}](tg://user?id={message.from_user.id})"
                             await app.send_message(
                                 chat_id,
-                                photo=thumb,
-                                caption=f"""
+                                f"""
 ▶️ **Memutar video dimulai**
 
 🏷 **Nama:** [{songname[:999]}]({url})
