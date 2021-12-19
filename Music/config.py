@@ -3,8 +3,6 @@
 from os import getenv
 
 from dotenv import load_dotenv
-from pyrogram import Client
-from pytgcalls import PyTgCalls
 
 load_dotenv()
 SESSION_NAME = getenv('SESSION_NAME', 'session')
