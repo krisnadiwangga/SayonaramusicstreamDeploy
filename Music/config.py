@@ -8,7 +8,6 @@ from pytgcalls import PyTgCalls
 
 load_dotenv()
 SESSION_NAME = getenv('SESSION_NAME', 'session')
-SESSION_NAME2 = getenv('SESSION_NAME2', 'session')
 BOT_TOKEN = getenv('BOT_TOKEN')
 API_ID = int(getenv('API_ID', "10892147"))
 API_HASH = getenv('API_HASH')
@@ -21,9 +20,3 @@ ASS_ID = int(getenv("ASS_ID", '2130437611'))
 OWNER_ID = list(map(int, getenv('OWNER_ID', '').split()))
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", None)
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", None)
-ASS_ACC = Client(
-    SESSION_NAME2,
-    API_ID,
-    API_HASH,
-)
-call_py = PyTgCalls(ASS_ACC)
