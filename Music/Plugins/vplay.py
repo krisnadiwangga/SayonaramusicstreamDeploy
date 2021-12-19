@@ -293,7 +293,7 @@ async def vplay(c: Client, message: Message):
                             add_to_queue(chat_id, songname, ytlink, url, "Video", Q)
                             await loser.delete()
                             requester = f"[{message.from_user.first_name}](tg://user?id={message.from_user.id})"
-                            await app.send_photo(
+                            await app.send_message(
                                 chat_id,
                                 photo=thumb,
                                 caption=f"""
