@@ -181,8 +181,10 @@ async def vplay(c: Client, message: Message):
             try:
                 if replied.video:
                     songname = replied.video.file_name[:70]
+                    duration = replied.video.duration
                 elif replied.document:
                     songname = replied.document.file_name[:70]
+                    duration = replied.document.duration
             except BaseException:
                 songname = "Video"
 
@@ -196,6 +198,7 @@ async def vplay(c: Client, message: Message):
 💡 **Trek ditambahkan ke antrian**
 
 🏷 **Nama:** [{songname[:999]}]({link})
+⏱️ **Durasi:** {duration} **detik**
 🎧 **Atas permintaan:** {requester}
 
 #️⃣ **Posisi antrian** {pos}
@@ -228,6 +231,7 @@ async def vplay(c: Client, message: Message):
 ▶️ **Streaming video dimulai**
 
 🏷 **Nama:** [{songname[:999]}]({link})
+⏱️ **Durasi:** {duration} **detik**
 🎧 **Atas permintaan:** {requester}
 
 💬 **Diputar di:** {message.chat.title}
