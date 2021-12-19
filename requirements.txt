@@ -26,7 +26,6 @@ requests
 speedtest-cli
 uvloop
 yt-dlp==2021.11.10.1
-telegraph
 hachoir
 lyricsgenius
 httpx>=0.14.2
