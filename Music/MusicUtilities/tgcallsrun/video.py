@@ -11,7 +11,7 @@ from pytgcalls.types.input_stream.quality import (
 from pytgcalls.types.stream import StreamVideoEnded
 
 from Music import app
-from Music.config import call_py
+from Music.MusicUtilities.tgcallsrun.music import pytgcalls as call_py
 from Music.MusicUtilities.tgcallsrun.queues import (
     QUEUE,
     clear_queue,
