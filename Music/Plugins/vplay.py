@@ -13,17 +13,14 @@ from pytgcalls.types.input_stream.quality import (
     MediumQualityVideo,
 )
 from youtubesearchpython import VideosSearch
-from Music.config import SUPPORT_GROUP, UPDATES_CHANNEL
+
 from Music import BOT_NAME, BOT_USERNAME, app
-from Music.config import call_py
+from Music.config import SUPPORT_GROUP, UPDATES_CHANNEL
 from Music.MusicUtilities.helpers.filters import command
 from Music.MusicUtilities.helpers.logger import LOG_CHAT
-from Music.MusicUtilities.tgcallsrun.music import pytgcalls as call_py (
-    QUEUE,
-    add_to_queue,
-    clear_queue,
-    get_queue,
-)
+from Music.MusicUtilities.tgcallsrun import ASS_ACC
+from Music.MusicUtilities.tgcallsrun.queues import QUEUE, add_to_queue, get_queue
+from Music.MusicUtilities.tgcallsrun.music import pytgcalls as call_py
 
 
 def ytsearch(query):
