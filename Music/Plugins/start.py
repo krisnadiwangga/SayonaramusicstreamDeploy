@@ -1,5 +1,5 @@
 import yt_dlp
-from Music.config import SUPPORT_GROUP, UPDATES_CHANNEL
+from Music.config import SUPPORT_GROUP, UPDATES_CHANNEL, OWNER
 from Music import (
     ASSID,
     BOT_ID,
@@ -30,7 +30,7 @@ def start_pannel():
             InlineKeyboardButton(text=f"ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
         ],
         [
-            InlineKeyboardButton("🔥OWNER🔥", url=f"https://t.me/Sayonara_nih"),
+            InlineKeyboardButton("🔥OWNER🔥", url=f"https://t.me/{OWNER}"),
         ],
     ]
     return (
@@ -46,11 +46,11 @@ pstart_markup = InlineKeyboardMarkup(
                 "➕ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ᴛᴏ ɢʀᴏᴜᴘ​ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ],
         [
-            InlineKeyboardButton(text="✨ sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_GROUP}"),
-            InlineKeyboardButton("✨ ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
+            InlineKeyboardButton("text="✨sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_GROUP}"),
+            InlineKeyboardButton("text="✨ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
         ],
         [
-            InlineKeyboardButton("🔥OWNER🔥", url=f"https://t.me/Sayonara_nih"),
+            InlineKeyboardButton("🔥OWNER🔥", url=f"https://t.me/{OWNER}"),
         ],
     ]
 )
