@@ -30,7 +30,7 @@ def start_pannel():
             InlineKeyboardButton(text=f"ᴜᴘᴅᴀᴛᴇs✨", url=f"https://t.me/{UPDATES_CHANNEL}"),
         ],
         [
-            InlineKeyboardButton("text=f"🔥OWNER🔥", url=f"https://t.me/{OWNER}"),
+            InlineKeyboardButton(text=f"🔥OWNER🔥", url=f"https://t.me/{OWNER}"),
         ],
     ]
     return (
@@ -50,7 +50,7 @@ pstart_markup = InlineKeyboardMarkup(
             InlineKeyboardButton(text=f"ᴜᴘᴅᴀᴛᴇs✨", url=f"https://t.me/{UPDATES_CHANNEL}"),
         ],
         [
-            InlineKeyboardButton("text=f"🔥OWNER🔥", url=f"https://t.me/{OWNER}"),
+            InlineKeyboardButton(text=f"🔥OWNER🔥", url=f"https://t.me/{OWNER}"),
         ],
     ]
 )
