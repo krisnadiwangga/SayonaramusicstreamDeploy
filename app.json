@@ -9,7 +9,7 @@
         "SESSION_NAME": {
             "description": "fill with the pyrogram session string from account",
             "required": true
-        },
+        }
         "OWNER_ID": {
             "description": "fill with your telegram id as the owner of the bot",
             "required": true,
@@ -32,6 +32,11 @@
         },
         "API_HASH": {
             "description": "your Api Hash from my.telegram.org/apps",
+            "required": true,
+            "value": ""
+        },
+        "OWNER": {
+            "description": "Isi dengan username tanpa @",
             "required": true,
             "value": ""
         },
