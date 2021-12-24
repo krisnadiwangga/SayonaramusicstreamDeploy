@@ -50,7 +50,7 @@ pstart_markup = InlineKeyboardMarkup(
             InlineKeyboardButton(text=f"ᴜᴘᴅᴀᴛᴇs✨", url=f"https://t.me/{UPDATES_CHANNEL}"),
         ],
         [
-            InlineKeyboardButton(text=f"🔥OWNER🔥", url=f"https://t.me/{ONER}"),
+            InlineKeyboardButton(text=f"🔥OWNER🔥", url=f"https://t.me/{OWNER}"),
         ],
     ]
 )
