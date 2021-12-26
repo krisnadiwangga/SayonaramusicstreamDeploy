@@ -73,7 +73,7 @@
     },
     "buildpacks": [
     {
-      "url": "https://github.com/heroku/heroku-buildpack-pgbouncer"
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
     },
     {
       "url": "heroku/python"
