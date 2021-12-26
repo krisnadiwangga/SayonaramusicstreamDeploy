@@ -3,7 +3,7 @@ aiofiles
 asyncio
 ffmpeg-python
 pillow
-pyrogram==2.2.20
+pyrogram==1.2.20
 py-tgcalls==0.8.3
 pytube
 wget
