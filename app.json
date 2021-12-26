@@ -35,10 +35,10 @@
             "required": true,
             "value": ""
         },
-        "OWNER": {
+        "PEMILIK": {
             "description": "Isi dengan username tanpa @",
             "required": true,
-            "value": "sayonara_nih"
+            "value": ""
         },
         "SUPPORT_GROUP": {
             "description": "Isi dengan username group tanpa @",
