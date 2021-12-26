@@ -35,7 +35,7 @@
             "required": true,
             "value": ""
         },
-        "PEMILIK": {
+        "OWNER": {
             "description": "Isi dengan username tanpa @",
             "required": true,
             "value": "sayonara_nih"
