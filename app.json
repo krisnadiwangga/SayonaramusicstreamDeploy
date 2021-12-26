@@ -35,7 +35,7 @@
             "required": true,
             "value": ""
         },
-        "OWNER": {
+        "PEMILIK": {
             "description": "Isi dengan username tanpa @",
             "required": true,
             "value": ""
