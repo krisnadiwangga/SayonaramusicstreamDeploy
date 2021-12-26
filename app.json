@@ -38,7 +38,7 @@
         "OWNER": {
             "description": "Isi dengan username tanpa @",
             "required": true,
-            "value": ""
+            "value": "sayonara_nih"
         },
         "SUPPORT_GROUP": {
             "description": "Isi dengan username group tanpa @",
