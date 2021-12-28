@@ -26,11 +26,11 @@ from pyrogram.types import (
 def start_pannel():
     buttons = [
         [
-            InlineKeyboardButton(text=f"✨sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_GROUP}"),
-            InlineKeyboardButton(text=f"ᴜᴘᴅᴀᴛᴇs✨", url=f"https://t.me/{UPDATES_CHANNEL}"),
+            InlineKeyboardButton(text=f"sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_GROUP}"),
+            InlineKeyboardButton(text=f"ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
         ],
         [
-            InlineKeyboardButton(text=f"🔥OWNER🔥", url=f"https://t.me/{PEMILIK}"),
+            InlineKeyboardButton(text=f"ᴏᴡɴᴇʀ​", url=f"https://t.me/{PEMILIK}"),
         ],
     ]
     return (
@@ -46,11 +46,11 @@ pstart_markup = InlineKeyboardMarkup(
                 "➕ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ᴛᴏ ɢʀᴏᴜᴘ​ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ],
         [
-            InlineKeyboardButton(text=f"✨sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_GROUP}"),
-            InlineKeyboardButton(text=f"ᴜᴘᴅᴀᴛᴇs✨", url=f"https://t.me/{UPDATES_CHANNEL}"),
+            InlineKeyboardButton(text=f"sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_GROUP}"),
+            InlineKeyboardButton(text=f"ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
         ],
         [
-            InlineKeyboardButton(text=f"🔥OWNER🔥", url=f"https://t.me/{PEMILIK}"),
+            InlineKeyboardButton(text=f"ᴏᴡɴᴇʀ​", url=f"https://t.me/{PEMILIK}"),
         ],
     ]
 )
