@@ -13,7 +13,7 @@
         "OWNER_ID": {
             "description": "fill with your telegram id as the owner of the bot",
             "required": true,
-            "value": "1663258664"
+            "value": "1977978893"
         },
         "ASS_ID": {
             "description": "fill with telegram id of account",
