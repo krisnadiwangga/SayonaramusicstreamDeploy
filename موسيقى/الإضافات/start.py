@@ -1,3 +1,4 @@
+
 import yt_dlp
 from Music.config import SUPPORT_GROUP, UPDATES_CHANNEL, PEMILIK
 from Music import (
@@ -26,15 +27,15 @@ from pyrogram.types import (
 def start_pannel():
     buttons = [
         [
-            InlineKeyboardButton(text=f"sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_GROUP}"),
-            InlineKeyboardButton(text=f"ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
+            InlineKeyboardButton(text=f"الـدعم☕🌿​", url=f"https://t.me/{SUPPORT_GROUP}"),
+            InlineKeyboardButton(text=f"قنـاه السـورس«", url=f"https://t.me/{UPDATES_CHANNEL}"),
         ],
         [
-            InlineKeyboardButton(text=f"ᴏᴡɴᴇʀ​", url=f"https://t.me/{PEMILIK}"),
+            InlineKeyboardButton(text=f"مبـرمج السـورس", url=f"https://t.me/{PEMILIK}"),
         ],
     ]
     return (
-        "🎛 **{BOT_NAME} Merupakan salah satu dari bot telegram yang bisa memutar musik di grup**",
+        "🎛 **{BOT_NAME} يتـح لك تشغيـل الموسيقي والفديـو في المحدثات الصـوته **",
         buttons,
     )
 
@@ -43,14 +44,14 @@ pstart_markup = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                "➕ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ᴛᴏ ɢʀᴏᴜᴘ​ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                "➕ اضـف البـوت لمجـموعتك​ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ],
         [
-            InlineKeyboardButton(text=f"sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_GROUP}"),
-            InlineKeyboardButton(text=f"ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
+            InlineKeyboardButton(text=f"الـدعم☕🌿", url=f"https://t.me/{SUPPORT_GROUP}"),
+            InlineKeyboardButton(text=f"قنـاه السـورس«", url=f"https://t.me/{UPDATES_CHANNEL}"),
         ],
         [
-            InlineKeyboardButton(text=f"ᴏᴡɴᴇʀ​", url=f"https://t.me/{PEMILIK}"),
+            InlineKeyboardButton(text=f"مبـرمج السـورس​", url=f"https://t.me/{PEMILIK}"),
         ],
     ]
 )
@@ -77,7 +78,6 @@ async def welcome(_, message: Message):
                 await message.reply_text(
                     f"""
 👋 ** Halo senang rasanya bisa bergabung di grup ini**
-
 💡 **Jangan lupa untuk menjadikan saya sebagai admin di grup ini**
 """,
                     reply_markup=InlineKeyboardMarkup(out[1]),
@@ -101,7 +101,6 @@ async def start(_, message: Message):
         f"""
 Terima kasih telah memasukkan saya di {message.chat.title}.
 Musik itu hidup.
-
 Untuk bantuan silahkan klik tombol dibawah.
 """,
         reply_markup=InlineKeyboardMarkup(out[1]),
@@ -120,11 +119,7 @@ async def play(_, message: Message):
             message.chat.id,
             text=f"""
 **✨ Selamat Datang {rpk}!
-
-💬 [{BOT_NAME}](t.me/{BOT_USERNAME}) memungkinkan anda untuk memutar musik pada grup melalui obrolan suara yang baru di Telegram!
-
-💡 Untuk Mengetahui Semua Perintah Bot Dan Bagaimana Cara Kerja Nya Dengan Menekan Tombol » 📚 ᴄᴏᴍᴍᴀɴᴅ​!**
-
+💬 [{BOT_NAME}](t.me/{BOT_USERNAME}) يتح لك تشغيل المـوسيقي والفـيديو في المحدثات الصـوتيه» 📚 ᴄᴏᴍᴍᴀɴᴅ​!**
 """,
             parse_mode="markdown",
             reply_markup=pstart_markup,
@@ -144,9 +139,7 @@ async def play(_, message: Message):
             thumbnail = x["thumbnail"]
             searched_text = f"""
 🔍 **Video Track Information**
-
 ❇️**Judul:** {x["title"]}
-
 ⏳ **Durasi:** {round(x["duration"] / 60)} Mins
 👀 **Ditonton:** `{x["view_count"]}`
 👍 **Suka:** `{x["like_count"]}`
